@@ -5,22 +5,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Яндекс.Дом</title>
-    <link rel="stylesheet" href="/shri2025-perfomance/fonts.css" />
-    <link rel="stylesheet" href="/shri2025-perfomance/reset.css" />
-    <link rel="stylesheet" href="/shri2025-perfomance/styles.css" />
+    <link rel="preload" as="font" href="lato.woff2" type="font/woff2" crossorigin="anonymous" />
+    <script src="vendors/react-with-dom.js" defer></script>
+    <link rel="preload" href="styles.css" as="style" onload="this.rel='stylesheet'" />
+    <noscript>
+        <link rel="stylesheet" href="styles.css" />
+    </noscript>
   <script type="module" crossorigin src="/shri2025-perfomance/assets/index-DXuv03e9.js"></script>
   <link rel="stylesheet" crossorigin href="/shri2025-perfomance/assets/index-jDWxQNKJ.css">
 </head>
 
 <body>
     <div id="root"></div>
+
     <footer class="footer">
         <ul class="footer__list">
-            <li class="footer__item"><a class="footer__link" href="/">Помощь</a></li>
-            <li class="footer__item"><a class="footer__link" href="/">Обратная связь</a></li>
-            <li class="footer__item"><a class="footer__link" href="/">Разработчикам</a></li>
-            <li class="footer__item"><a class="footer__link" href="/">Условия использования</a></li>
+            <li class="footer__item">
+                <a class="footer__link" href="/">Помощь</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="/">Обратная связь</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="/">Разработчикам</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="/">Условия использования</a>
+            </li>
         </ul>
+
         <div class="footer__copyright">© 1997–2023 ООО «Яндекс»</div>
     </footer>
 </body>
