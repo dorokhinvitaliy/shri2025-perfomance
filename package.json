@@ -2,6 +2,7 @@
   "name": "shri2025-perfomance",
   "version": "1.0.0",
   "description": "## Задание Оптимизировать страницу, выложить результат на Github-Pages и отправить его на проверку на [https://shri-performance.ru/](https://shri-performance.ru/), отправив адрес вашей страницы. Нужно набрать минимум **80 баллов**. Набрать больше баллов возможно, но больше 120 в зачёт не пойдёт.",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
